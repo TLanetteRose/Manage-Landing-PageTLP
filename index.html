@@ -5,22 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
   
   <title>Frontend Mentor | Manage landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header>
+    <a href="#home" class="header__logo"  data-scroll>
+      <img src="images/logo.svg" alt="Manage logo">
+    </a>
+    <nav class="nav-collapse">
+      <ul>
+        <li class="menu-item active"><a href="#pricing" data-scroll>Pricing</a></li>
+        <li class="menu-item"><a href="#product" data-scroll>Product</a></li>
+        <li class="menu-item"><a href="#aboutus" data-scroll>About Us</a></li>
+        <li class="menu-item"><a href="#careers" data-scroll>Careers</a></li>
+        <li class="menu-item"><a href="#Community" data-scroll>Community</a></li>
+      </ul>
+    </nav><!--Nav-->
+  </header> <!--Header-->
 
-  Pricing
-  Product
-  About Us
-  Careers
-  Community
+  
+  
+  
+  
+  
 
   Get Started
 
@@ -95,7 +105,13 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">T.Lanette</a>.
   </div>
+
+  <!-- Scripts -->
+  <script src="js/fastclick.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/responsive-nav.js"></script>
+  <script src="js/fixed-responsive-nav.js"></script>
 </body>
 </html>
