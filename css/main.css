@@ -1,6 +1,18 @@
 
+* {
+    outline: 1px solid black;
+    box-sizing: inherit;
+}
 
+html {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 
 
