@@ -27,9 +27,21 @@ body {
 
 
 
+.services__heading {
+    margin-left: 2rem;
+}
 
+.services__text {
+    transform: translateX(8rem);
+}
 
-
+.badge-pill {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem 2rem 0.6rem 2rem;
+    border-radius: 100px;
+}
 
 
 
