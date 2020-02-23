@@ -46,7 +46,15 @@ body {
 }
 
 /* Testimonial Section Style */
+.carousel-control-prev,
+.carousel-control-next {
+    background-image: none;
+}
 
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
 
 
 
