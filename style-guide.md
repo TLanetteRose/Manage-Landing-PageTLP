@@ -117,3 +117,12 @@ Pricing
   Go
 
   Copyright 2020. All Rights Reserved
+
+
+
+  <ol class="carousel-indicators">
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active testimonial__bullet"e></li>
+            <li data-target="#carouselIndicators" data-slide-to="1" class="testimonial__bullet"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2" class="testimonial__bullet"></li>
+            <li data-target="#carouselIndicators" data-slide-to="3" class="testimonial__bullet"></li>
+          </ol><!--.carousel-indicators-->
