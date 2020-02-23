@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    background-color: hsl(13, 100%, 96%)
     font-family: "Be Vietnam", sans-serif;
     overflow-x: hidden;
 }
