@@ -13,6 +13,8 @@
   <title>Frontend Mentor | Manage landing page</title>
 </head>
 <body>
+
+    <!-- Header Section-->
     <header class="header">
       <nav class="navbar navbar-expand-md justify-content-between align-items-center navbar-light bg-light desktop__navbar">
         <div class="container-fluid">
@@ -55,7 +57,8 @@
         </div><!--.container-fluid-->
       </nav><!--.desktop__navbar-->
     </header><!--.header-->
-    
+
+    <!--Introduction Section-->
     <main role="main" class="justify-content-between align-items-center">
       <section class="container intro__container row mx-auto">
         <div class="col-12 col-md-6">
@@ -73,6 +76,7 @@
         </div><!--.col-12-->
       </section><!--.intro__container-->
 
+      <!--Services Container-->
       <section class="services__container container row mx-auto mt-1 py-1">
         <div class="col-12 col-md-6  mt-1 py-1">
           <h1 class="services__main-heading display-5 mt-2 w-75">
@@ -112,62 +116,17 @@
         </div><!--.col-12-->
       </section><!--.services__container-->
 
+      <!--Testimonials Section-->
       <section class="testimonial__container container text-center">
-        <h1 class="testimonial__heading text-center display-5">What they’ve said</h1>
-
-        <div id="carouselIndicators" class="carousel slide testimonial__carousel" data-ride="carousel" data-type="multi">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselIndicators" data-slide-to="0" class="testimonial__bullet active"></li>
-            <li data-target="#carouselIndicators" data-slide-to="1" class="testimonial__bullet"></li>
-            <li data-target="#carouselIndicators" data-slide-to="2" class="testimonial__bullet"></li>
-            <li data-target="#carouselIndicators" data-slide-to="3" class="testimonial__bullet"></li>
-          </ol><!--.carousel-indicators-->
-
-        <!--Carousel Items-->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row testimonial__slides">
-                <div class="col-md-3 col-sm-12">
-                  <img class="testimonial__image mx-auto d-block w-25" src="/images/avatar-anisha.png" alt="Anisha Li first slide">
-                  <h3 class="testimonial__name">Anisha Li</h3>
-                  <p class="testimonial__text">“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
-                </div>
-
-                <div class="col-md-3 col-sm-12">
-                  <img class="testimonial__image mx-auto d-block w-25" src="/images/avatar-ali.png" alt="Ali Bravo second slide">
-                  <h3 class="testimonial__name">Ali Bravo</h3>
-                  <p class="testimonial__text">“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much
-                  more focused.”</p>
-                </div>
-
-                <div class="col-md-3 col-sm-12">
-                  <img class="testimonial__image mx-auto d-block w-25" src="/images/avatar-richard.png" alt="Richard Watts third slide">
-                  <h3 class="testimonial__name">Richard Watts</h3>
-                  <p class="testimonial__text">“Manage has supercharged our team’s workflow. The ability to maintain visibility on
-                  larger milestones at all times keeps everyone motivated.”</p>
-                </div>
-
-                <div class="col-md-3 col-sm-12">
-                  <img class="testimonial__image mx-auto d-block w-25" src="/images/avatar-shanai.png" alt="Shanai Gough fourth slide">
-                  <h3 class="testimonial__name">Shanai Gough</h3>
-                  <p class="testimonial__text">“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
-                </div>
-              </div><!--.testimonial__slides-->
-            </div><!--carousel-item-->
-          </div><!--.testimonial__slides-->
-
-          <a class="left carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-          </a><!--carousel-control-prev-->
-
-          <a class="right carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a><!--carousel-control-next-->
-        </div><!--testimonial__carousel-->
-        <a href="#" class="intro__button btn btn--primary">Get Started</a>
+        <div class="col-12">
+          <h1 class="testimonial__heading text-center display-5 mx-auto">What they’ve said</h1>
+        </div>
+        <div id="carouselIndicator" class="carousel slide" data-ride="carousel">
+          <div></div>
+        </div><!--.carousel-->
       </section><!--.testimonial__container-->
+
+      <!--Information Section-->
       <section class="info__container">
         <div class="container">
           <div class="row justify-content-between align-items-center">
@@ -197,11 +156,11 @@
   </div>
 
   <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
