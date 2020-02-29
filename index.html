@@ -61,7 +61,7 @@
 
     <!--Introduction Section-->
     <main role="main" class="justify-content-between align-items-center">
-      <section class="container intro__container row mx-auto">
+      <section class="container-fluid intro__container row mx-auto">
         <div class="col-12 col-md-6">
           <h1 class="intro__heading display-3">
             Bring everyone together to build better products.
@@ -73,12 +73,12 @@
           <a href="#" class="intro__button btn btn--primary">Get Started</a>
         </div><!--.col-12-->
         <div class="col-12 col-md-6">
-          <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro_image img-fluid">
+          <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro_image img-fluid mx-auto">
         </div><!--.col-12-->
       </section><!--.intro__container-->
 
       <!--Services Container-->
-      <section class="services__container container row mx-auto mt-1 py-1">
+      <section class="services__container container-fluid row mx-auto mt-1 py-1">
         <div class="col-12 col-md-6  mt-1 py-1">
           <h1 class="services__main-heading display-5 mt-2 w-75">
             What’s different about Manage?
@@ -118,9 +118,64 @@
       </section><!--.services__container-->
 
       <!--Testimonials Section-->
-      <section class="testimonial__container container text-center">
+      <section class="testimonial__container container-fluid text-center">
         <!--Carousel-->
-       
+        <div id="multiCarousel" class="carousel slide testimonial__carousel" data-ride="carousel" data-interval="9000">
+          <ol class="carousel-indicators">
+            <li data-target="#multiCarousel" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#multiCarousel" data-slide-to="1">
+            </li>
+            <li data-target="#multiCarousel" data-slide-to="2">
+            </li>
+            <li data-target="#multiCarousel" data-slide-to="3">
+            </li>
+          </ol><!--.carousel-indicators-->
+          <div class="carousel-inner row mx-auto" role="listbox">
+            <div class="carousel-item col-md-4 active">
+              <div class="card">
+                <img class="card-img-top img-fluid d-block mx-auto w-25" src="images/avatar-anisha.png" alt="Anisha Li testimonial">
+                <div class="card-body">
+                  <h4 class="card-title">Anisha Li</h4>
+                  <p class="card-body">“Manage has supercharged our team’s workflow. The ability to maintain
+                  visibility on larger milestones at all times keeps everyone motivated.”</p>
+                </div><!--.card-body-->
+              </div><!--.card-->
+            </div><!--.carousel-item-->
+
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid d-block mx-auto w-25" src="/images/avatar-ali.png" alt="Ali Bravo testimonial">
+                <div class="card-body">
+                  <h4 class="card-title">Ali Bravo</h4>
+                  <p class="card-body">“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”</p>
+                </div><!--.card-body-->
+              </div><!--.card-->
+            </div><!--.carousel-item-->
+
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid d-block mx-auto w-25" src="/images/avatar-richard.png" alt="Richard Watts testimonial">
+                <div class="card-body">
+                  <h4 class="card-title">Richard Watts</h4>
+                  <p class="card-body">“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”</p>
+                </div><!--.card-body-->
+              </div><!--.card-->
+            </div><!--.carousel-item-->
+
+            <div class="carousel-item col-md-4">
+              <div class="card">
+                <img class="card-img-top img-fluid d-block mx-auto w-25" src="/images/avatar-shanai.png"
+                  alt="Shanai Gough testimonial">
+                <div class="card-body">
+                  <h4 class="card-title">Shanai Gough</h4>
+                  <p class="card-body">“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+                </div><!--.card-body-->
+              </div><!--.card-->
+            </div><!--.carousel-item-->
+
+          </div><!--.carousel-inner-->
+        </div><!--.testimonial__carousel-->
 
       </section><!--.testimonial__container-->
 
