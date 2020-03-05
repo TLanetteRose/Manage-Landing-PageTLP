@@ -19,7 +19,7 @@ Footer--Dk Gray: hsl(233, 12%, 13%)
 ### Neutral
 
 Dark Grayish Blue: hsl(227, 12%, 61%)
-Very Dark Blue: hsl(233, 12%, 13%)
+Very Dark Blue: hsl(232, 12%, 13%)
 Very Pale Red: hsl(13, 100%, 96%)
 Vary Light Gray: hsl(0, 0%, 98%)
 
