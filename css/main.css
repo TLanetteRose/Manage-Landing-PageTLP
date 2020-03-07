@@ -51,10 +51,18 @@ p {
 
 /* Testimonial Section Style */
 
-.testimonial__container {
+.testimonials {
     margin-top: 10rem;
 }
 
+.testimonial__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
 .testimonialCarousel {
     margin: 8rem 0 6rem 0;
 }
