@@ -81,6 +81,18 @@ p {
     list-style-type: none;
 }
 
+.testimonial__img {
+    width: 9rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
 .glide__arrow {
     background-color: hsl(13, 100%, 96%);
 }
