@@ -1,6 +1,6 @@
 
 /* Carousel */
-const testCarousel = new Glide('.glide', {
+const testCarousel = new Glide('.testimonial', {
     type: 'carousel',
     startAt: 0,
     gap: 20,

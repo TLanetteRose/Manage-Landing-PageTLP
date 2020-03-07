@@ -132,86 +132,68 @@
       </section><!--.services__container-->
 
       <!--Testimonials Section-->
-      <section class="testimonials container-fluid text-center">
-        <div class="testimonial__heading container">
-          <h1 class="testimonial__title mx-auto text-center">What they’ve said</h1>
-        </div><!--.testimonial__intro-->
-        <!--Carousel-->
-        <div class="glide">
+      <section class="testimonial__container text-center">
+        <div class="container">
+          <h2 class="testimonial__heading text-center">What they’ve said</h2>
+        </div>
+
+        <div class="glide testimonial">
           <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides text-center">
-              <li class="glide__slide">
-                <div class="card mx-auto">
-                  <img class="card-img-top testimonial__img img-fluid mx-auto testimonial__img mx-auto" src="images/avatar-anisha.png" alt="Anisha Li slide">
-                  <h2 class="card-title mx-auto">Anisha Li</h2>
-                  <p class="card-text mx-auto">
-                    “Manage has supercharged our team’s workflow. The ability to maintain
-                    visibility on larger milestones at all times keeps everyone motivated.”
-                  </p>
-                </div>
+            <ul class="glide__slides">
+              <li class="glide__slide mx-auto">
+                <img class="testimonial__img img-fluid" src="/images/avatar-anisha.png" alt="Anisha Li slide">
+                <h4 class="testimonial__name">Anisha Li</h4>
+                <p class="testimonial__text">“Manage has supercharged our team’s workflow. The ability to maintain
+                visibility on larger milestones at all times keeps everyone motivated.”</p>
               </li><!--.glide__slide-->
 
-              <li class="glide__slide">
-                <div class="card mx-auto">
-                  <img class="card-img-top img-fluid mx-auto testimonial__img mx-auto" src="images/avatar-anisha.png"
-                    alt="Anisha Li slide">
-                  <h2 class="card-title mx-auto">Anisha Li</h2>
-                  <p class="card-text mx-auto">
-                    “Manage has supercharged our team’s workflow. The ability to maintain
-                    visibility on larger milestones at all times keeps everyone motivated.”
-                  </p>
-                </div>
+              <li class="glide__slide mx-auto">
+                <img class="testimonial__img img-fluid" src="/images/avatar-ali.png" alt="Ali Bravo slide">
+                <h4 class="testimonial__name">Ali Bravo</h4>
+                <p class="testimonial__text">“We have been able to cancel so many other subscriptions since using
+                Manage. There is no more cross-channel confusion and everyone is much
+                more focused.”</p>
               </li>
               <!--.glide__slide-->
 
-              <li class="glide__slide">
-                <div class="card mx-auto">
-                  <img class="card-img-top img-fluid mx-auto testimonial__img mx-auto" src="images/avatar-anisha.png"
-                    alt="Anisha Li slide">
-                  <h2 class="card-title mx-auto">Anisha Li</h2>
-                  <p class="card-text mx-auto">
-                    “Manage has supercharged our team’s workflow. The ability to maintain
-                    visibility on larger milestones at all times keeps everyone motivated.”
-                  </p>
-                </div>
+              <li class="glide__slide mx-auto">
+                <img class="testimonial__img img-fluid" src="/images/avatar-richard.png" alt="Richard Watts slide">
+                <h4 class="testimonial__name">Richard Watts</h4>
+                <p class="testimonial__text">“Manage allows us to provide structure and process. It keeps us organized
+                and focused. I can’t stop recommending them to everyone I talk to!”</p>
               </li>
               <!--.glide__slide-->
 
-              <li class="glide__slide">
-                <div class="card mx-auto">
-                  <img class="card-img-top img-fluid mx-auto testimonial__img mx-auto" src="images/avatar-anisha.png"
-                    alt="Anisha Li slide">
-                  <h2 class="card-title mx-auto">Anisha Li</h2>
-                  <p class="card-text mx-auto">
-                    “Manage has supercharged our team’s workflow. The ability to maintain
-                    visibility on larger milestones at all times keeps everyone motivated.”
-                  </p>
-                </div>
+              <li class="glide__slide mx-auto">
+                <img class="testimonial__img img-fluid" src="/images/avatar-shanai.png" alt="Shanai Gough slide">
+                <h4 class="testimonial__name">Shanai Gough</h4>
+                <p class="testimonial__text">“Their software allows us to track, manage and collaborate on our projects
+                from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
               </li>
               <!--.glide__slide-->
-            </ul>
+
+            </ul><!--.glide__slides-->
           </div><!--.glide__track-->
 
           <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left text-dark" data-glide-dir="<">prev</button>
             <button class="glide__arrow glide__arrow--right text-dark" data-glide-dir=">">next</button>
-          </div>
-          <!--.glide__arrows-->
+          </div><!--.glide__arrows-->
 
           <div class="glide__bullets" data-glide-el="controls[nav]">
             <button class="glide__bullet" data-glide-dir="=0"></button>
             <button class="glide__bullet" data-glide-dir="=1"></button>
             <button class="glide__bullet" data-glide-dir="=2"></button>
             <button class="glide__bullet" data-glide-dir="=3"></button>
+          </div><!--.glide__bullets-->
+
+          <div class="testimonial__cta">
+            <a href="#" class="testimonial__button btn btn--primary">Get Started</a>
           </div>
-          <!--glide__bullets-->
-        </div><!--.glide-->
-
-
+          <!--.testimonial__cta-->
+        </div><!--.testimonial-->
+        
       </section><!--.testimonial__container-->
-      <div class="testimonial-cta d-flex">
-        <a href="#" class="testimonial__button btn btn--primary justify-content-center align-items-center mx-auto">Get Started</a>
-      </div>
 
       <!--Information Section-->
       <section class="info__container">
@@ -244,9 +226,6 @@
 
   <!-- Scripts -->
 
-  <!--Author scripts-->
-  <script src="/js/main.js"></script>
-
   <!--Bootstrap scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -257,7 +236,9 @@
 
   <!--Glide JS scripts-->
   <script src="/js/glide.min.js"></script>
-  
+
+  <!--Author scripts-->
+  <script src="/js/main.js"></script>
 
 </body>
 </html>
