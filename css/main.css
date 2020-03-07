@@ -64,19 +64,8 @@ p {
     padding: 15px;
 }
 
-.testimonial__track {
-    cursor: -webkit-grab;
-    cursor: grab;
-    overflow-x: hidden;
-}
 
-.testimonial__slides {
-    display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    list-style-type: none;
-    
-}
+
 
 
 
