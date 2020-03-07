@@ -64,34 +64,6 @@ p {
     padding: 15px;
 }
 
-.testimonial__track {
-    cursor: -webkit-grab;
-    cursor: grab;
-    overflow-x: hidden;
-}
-
-.testimonial__slides {
-    display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-}
-
-.testimonial__image {
-    width: 8rem;
-    display: block;
-    margin: 0 auto;
-}
-
-.testimonial__name {
-    font-weight: 700;
-    font-size: 1.8rem;
-    margin: 2rem 0;
-}
-
-
 
 
 
