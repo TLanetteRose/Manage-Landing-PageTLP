@@ -16,6 +16,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 
 
 .hero__img {
@@ -46,6 +50,44 @@ body {
 }
 
 /* Testimonial Section Style */
+
+.testimonial__container {
+    margin-top: 10rem;
+}
+
+.testimonialCarousel {
+    margin: 8rem 0 6rem 0;
+}
+
+.testimonial__track {
+    cursor: -webkit-grab;
+    cursor: grab;
+    overflow-x: hidden;
+}
+
+.testimonial__slides {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    list-style-type: none;
+}
+
+.card-img-top {
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.testimonial__name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+
+
+
+
 
 
 
