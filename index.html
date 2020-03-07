@@ -14,12 +14,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   
     <!--Glide Styles-->
-  <link rel="stylesheet" href="/css/glide.core.min.css">
-  <link rel="stylesheet" href="/css/glide.theme.min.css">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" href="./css/glide.theme.min.css"><link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
 
   <!--Author Styles-->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/mediaqueries.css">
 
   <!--Font-->
   <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:400,500,700&display=swap">
@@ -139,15 +140,18 @@
         <div class="testimonial__container">
           <div class="glide testimonial">
             <div class="glide__track" data-glide-el="track">
-              <ul class="glide__slides d-flex">
+              <ul class="glide__slides">
                 <li class="glide__slide">0</li>
                 <li class="glide__slide">1</li>
                 <li class="glide__slide">2</li>
                 <li class="glide__slide">3</li>
+                <li class="glide__slide">4</li>
               </ul>
-            </div>
+            </div><!--.glide__track-->
+
             
 
+            
             
           </div><!--.testimonial-->
         </div><!--.testimonial__container-->
@@ -190,7 +194,7 @@
   <!-- Scripts -->
 
   <!--Author scripts-->
-  <script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 
   <!--Bootstrap scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -201,7 +205,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <!--Glide JS scripts-->
-  <script src="/js/glide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
   
 
 </body>
