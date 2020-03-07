@@ -63,9 +63,6 @@ p {
     align-items: center;
     padding: 15px;
 }
-.testimonialCarousel {
-    margin: 8rem 0 6rem 0;
-}
 
 .testimonial__track {
     cursor: -webkit-grab;
@@ -78,19 +75,13 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     list-style-type: none;
+    
 }
 
-.card-img-top {
-    width: 8rem;
-    display: block;
-    margin: 0 auto;
-}
 
-.testimonial__name {
-    font-weight: 700;
-    font-size: 1.8rem;
-    margin: 2rem 0;
-}
+
+
+
 
 
 
