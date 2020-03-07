@@ -3,6 +3,7 @@
 const testCarousel = new Glide('.testimonial', {
     type: 'carousel',
     startAt: 0,
+    gap: 20,
     perView: 4,
     breakpoints: {
         1024: {

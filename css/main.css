@@ -51,6 +51,19 @@ p {
 
 /* Testimonial Section Style */
 
+.testimonial__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.testimonial__heading {
+   justify-content: center; 
+   align-items: center;
+   
+
+}
+
 .glide {
     margin: 8rem 0 6rem 0;
 }
@@ -71,6 +84,10 @@ p {
     width: 250px;
 }
 
+.glide__arrow {
+    background-color: hsl(13, 100%, 96%);
+}
+
 .glide__bullets {
     position: relative;
     display: flex;
@@ -87,7 +104,7 @@ p {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: hsl(12, 88%, 59%);
     border: 2px solid hsl(12, 88%, 59%);
     margin: 0 0.5rem;
     transition: all 0.3s;
