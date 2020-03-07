@@ -1,6 +1,6 @@
 
 /* Carousel */
-const carousel = new Glide('.testimonials', {
+const testCarousel = new Glide('.glide', {
     type: 'carousel',
     startAt: 0,
     gap: 20,
@@ -16,6 +16,5 @@ const carousel = new Glide('.testimonials', {
             perView: 1
         }
     }
-});
-carousel.mount();
-
+})
+testCarousel.mount();
