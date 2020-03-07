@@ -112,6 +112,22 @@ p {
     cursor: pointer;
 }
 
+/* Info Container */
+.info__container {
+    height: 150px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* Attribution */
 .attribution {

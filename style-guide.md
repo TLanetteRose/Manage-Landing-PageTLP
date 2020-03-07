@@ -104,11 +104,12 @@ Pricing
 
   Simplify how your team works today.
   Get Started
-
+  
   Home
   Pricing
   Products
   About Us
+
   Careers
   Community
   Privacy Policy
