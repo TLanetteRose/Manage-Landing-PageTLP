@@ -18,3 +18,4 @@ const testCarousel = new Glide('.testimonial', {
     }
 })
 testCarousel.mount();
+
