@@ -84,6 +84,10 @@ p {
     width: 250px;
 }
 
+.testimonial__img {
+    width: 15%;
+}
+
 .glide__arrow {
     background-color: hsl(13, 100%, 96%);
 }
