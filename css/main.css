@@ -20,14 +20,55 @@ p {
     font-size: 1.5rem;
 }
 
-
-
-.hero__img {
-    width: 100%;
+button:focus,
+input:focus {
+    outline: none;
 }
 
+.button {
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 300px;  
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
 
-/* Responsive Nav Styles */
+.button:hover {
+    text-decoration: none;
+}
+
+.btn--primary {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+    -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+
+}
+
+.btn--primary:hover {
+    background-color: rgba(242, 95, 58, 0.4);
+    color: white;
+}
+
+.btn--white {
+    background-color: white;
+    color: hsl(12, 88%, 59%);
+}
+
+.btn--white:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: hsl(12, 88%, 59%);
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
+}
+
+/* Navbar section */
+
+
+
+/* Intro Container
 
 
 
@@ -84,6 +125,10 @@ p {
     width: 250px;
 }
 
+.testimonial__img {
+    width: 15%;
+}
+
 .glide__arrow {
     background-color: hsl(13, 100%, 96%);
 }
@@ -112,11 +157,38 @@ p {
     cursor: pointer;
 }
 
+/* Info Container */
+.info__container {
+    height: 150px;
+    background-color: hsl(12, 88%, 59%);
+}
+
+
+/* Footer */
+
+footer {
+    height: 300px;
+    background-color: hsl(233, 12%, 13%);
+    color: white;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    
+}
+
+
 
 /* Attribution */
 .attribution {
+    background-color:  hsl(233, 12%, 13%);
     font-size: 11px;
     text-align: center;
+    color: white;
 }
 
 .attribution a {

@@ -4,7 +4,7 @@ const testCarousel = new Glide('.testimonial', {
     type: 'carousel',
     startAt: 0,
     gap: 20,
-    perView: 4,
+    perView: 3,
     breakpoints: {
         1024: {
             perView: 3
@@ -18,3 +18,4 @@ const testCarousel = new Glide('.testimonial', {
     }
 })
 testCarousel.mount();
+

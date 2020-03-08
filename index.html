@@ -37,17 +37,9 @@
             <img src="./images/logo.svg" alt="Manage logo" class="navbar__img">
           </a>
           <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <svg class="navbar__icon" aria-labelledby="navbarIcon" role="img" xmlns="http://www.w3.org/2000/svg" width="25" height="18">
-            <g fill="#242D52" fill-rule="evenodd">
-              <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
-            </g>
-            </svg>
+            <span class="navbar-toggler-icon"><img src="images/icon-hamburger.svg" alt="Mobile menu open"></span>
           </button>
-         <!-- <button class="navbar-close navbar__menu" type="button" data-toggle="collapse" data-target="#navbarClose"
-          aria-controls="navbarClose" aria-expanded="false" aria-label="Close navigation">
-            <svg class="navbar__close-icon" aria-labelledby="navbarCloseIcon" role="img" xmlns="http://www.w3.org/2000/svg" width="21" height="22"><path fill="#242D52" fill-rule="evenodd" d="M17.925.747l2.828 2.828L13.328 11l7.425 7.425-2.828 2.828-7.425-7.425-7.425 7.425-2.828-2.828L7.671 11 .247 3.575 3.075.747 10.5 8.171 17.925.747z"/>
-            </svg>
-          </button>--->
+          
 
           <div id="navbarCollapse" class="mobile__navbar collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
@@ -68,7 +60,7 @@
               </li>
             </ul>
           </div><!--.mobile__navbar-->
-          <a href="#" class="navbar__button btn btn--primary">Get Started</a>
+          <a href="#" class="navbar__button button btn btn--primary">Get Started</a>
         </div><!--.container-fluid-->
       </nav><!--.desktop__navbar-->
     </header><!--.header-->
@@ -84,11 +76,12 @@
             Manage makes it simple for software teams to plan day-to-day
             tasks while keeping the larger team goals in view.
           </p>
-          <a href="#" class="intro__button btn btn--primary">Get Started</a>
+          <a href="#" class="intro__button button btn btn--primary">Get Started</a>
         </div><!--.col-12-->
         <div class="col-12 col-md-6">
           <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro_image img-fluid mx-auto">
         </div><!--.col-12-->
+        <div class="bg__image2__mobile"></div>
       </section><!--.intro__container-->
 
       <!--Services Container-->
@@ -188,7 +181,7 @@
           </div><!--.glide__bullets-->
 
           <div class="testimonial__cta">
-            <a href="#" class="testimonial__button btn btn--primary">Get Started</a>
+            <a href="#" class="testimonial__button button btn btn--primary">Get Started</a>
           </div>
           <!--.testimonial__cta-->
         </div><!--.testimonial-->
@@ -196,14 +189,14 @@
       </section><!--.testimonial__container-->
 
       <!--Information Section-->
-      <section class="info__container">
-        <div class="container">
+      <section class="info__container d-flex align-items-center">
+        <div class="container-fluid">
           <div class="row justify-content-between align-items-center">
             <div class="col-md-6 mx-auto">
-              <h2 class="info__heading">Simplify how your team works today.</h2>
+              <h2 class="info__heading text-light">Simplify how your team works today.</h2>
             </div><!--.col-md-6-->
             <div class="col-md-4 mx-auto">
-              <a href="#" class="intro__button btn btn--primary">Get Started</a>
+              <a href="#" class="info__button button btn btn--white">Get Started</a>
             </div><!--.col-md-4-->
           </div>
         </div><!--.container-->
@@ -211,15 +204,44 @@
     </main><!--.main-->
   
     <footer class="footer">
-
+      <div class="footer__container containier-fluid">
+        <div class="footer__section-1">
+          <form action="">
+            <input type="email" placeholder="Updates in your inbox…">
+            <input type="submit" value="Go">
+          </form>
+          <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+        <div class="footer__section-2 footer__list-1">
+          <ul>
+            <li><a href="#">Home</a></Home></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__section-3 footer__list-2">
+          <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__section-4">
+          <img class="footer__logo" src="/images/logo footer.svg" alt="Manage logo">
+          <div class="footer__social d-flex">
+            <img src="/images/icon-facebook.svg" alt="Facebook logo">
+            <img src="images/icon-youtube.svg" alt="Youtube logo">
+            <img src="images/icon-twitter.svg" alt="Twitter Logo">
+            <img src="images/icon-pinterest.svg" alt="Pinterest logo">
+            <img src="images/icon-instagram.svg" alt="Instagram logo">
+          </div>
+        </div>
+      </div><!--.footer__container-->
     </footer><!--.footer-->
-
+    
   
-  
-  
-
-  
-  <div class="attribution">
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">T.Lanette</a>.
   </div>

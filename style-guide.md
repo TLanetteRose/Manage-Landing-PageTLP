@@ -15,6 +15,7 @@ Bright Red: hsl(12, 88%, 59%)
 Dark Blue: hsl(228, 39%, 23%)
 Buttons--Orange:  hsl(12, 88%, 59%)
 Footer--Dk Gray: hsl(233, 12%, 13%)
+footer logo: hsl(0, 0%, 100%)
 
 ### Neutral
 
@@ -104,11 +105,12 @@ Pricing
 
   Simplify how your team works today.
   Get Started
-
+  
   Home
   Pricing
   Products
   About Us
+
   Careers
   Community
   Privacy Policy
@@ -116,7 +118,7 @@ Pricing
   Updates in your inbox…
   Go
 
-  Copyright 2020. All Rights Reserved
+  
 
 
 
