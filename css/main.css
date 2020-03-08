@@ -20,11 +20,56 @@ p {
     font-size: 1.5rem;
 }
 
+button:focus,
+input:focus {
+    outline: none;
+}
+
+.button {
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 300px;  
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.btn--primary {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+    -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+
+}
+
+.btn--primary:hover {
+    background-color: rgba(242, 95, 58, 0.4);
+    color: white;
+}
+
+.btn--white {
+    background-color: white;
+    color: hsl(12, 88%, 59%);
+}
+
+.btn--white:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: hsl(12, 88%, 59%);
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
+}
 
 
+/* Hero section */
 .hero__img {
     width: 100%;
 }
+
 
 
 /* Responsive Nav Styles */
