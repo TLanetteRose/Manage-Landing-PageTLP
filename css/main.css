@@ -126,12 +126,20 @@ p {
 
 footer {
     height: 150px;
+    background-color: hsl(233, 12%, 13%);
+    color: white;
 }
 
 .footer__container {
     display: flex;
     justify-content: space-evenly;
 }
+
+.footer__logo {
+    
+}
+
+
 
 /* Attribution */
 .attribution {

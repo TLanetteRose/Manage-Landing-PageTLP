@@ -15,6 +15,7 @@ Bright Red: hsl(12, 88%, 59%)
 Dark Blue: hsl(228, 39%, 23%)
 Buttons--Orange:  hsl(12, 88%, 59%)
 Footer--Dk Gray: hsl(233, 12%, 13%)
+footer logo: hsl(0, 0%, 100%)
 
 ### Neutral
 
