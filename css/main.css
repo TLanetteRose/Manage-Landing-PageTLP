@@ -119,6 +119,7 @@ p {
 /* Info Container */
 .info__container {
     height: 150px;
+    background-color: hsl(12, 88%, 59%);
 }
 
 
