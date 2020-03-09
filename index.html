@@ -7,8 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!-- FontAwesome-->
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
@@ -31,17 +31,17 @@
 
     <!-- Header Section-->
     <header class="header">
-      <nav class="navbar navbar-expand-md justify-content-between align-items-center navbar-light bg-light desktop__navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a href="#" class="navbar-brand">
             <img src="./images/logo.svg" alt="Manage logo" class="navbar__img">
           </a>
-          <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><img src="images/icon-hamburger.svg" alt="Mobile menu open"></span>
+          <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="images/icon-hamburger.svg" alt="Mobile menu open" class="hamburger__icon">
           </button>
-          
 
-          <div id="navbarCollapse" class="mobile__navbar collapse navbar-collapse justify-content-center">
+          <div id="navbarToggler" class="mobile__navbar collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a href="#pricing" class="nav-link">Pricing</a>
@@ -59,10 +59,11 @@
                 <a href="#community" class="nav-link">Community</a>
               </li>
             </ul>
-          </div><!--.mobile__navbar-->
+          </div>
+          <!--.mobile__navbar-->
           <a href="#" class="navbar__button button btn btn--primary">Get Started</a>
         </div><!--.container-fluid-->
-      </nav><!--.desktop__navbar-->
+      </nav>
     </header><!--.header-->
 
     <!--Introduction Section-->
