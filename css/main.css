@@ -1,3 +1,4 @@
+/* Mobile first */
 
 * {
     outline: 1px solid black;
@@ -66,11 +67,55 @@ input:focus {
 
 /* Navbar section */
 
+.navbar {
+    padding-top: 3rem;
+}
 
 
-/* Intro Container
 
+.navbar__button {
+    display: none;
+}
 
+.nav-link {
+    text-align: center;
+    font-family: "Be Vietnam",
+    sans-serif;
+    color: black;
+    font-size: 1.45rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+/* Intro Container*/
+
+.intro__image {
+    order: 1;
+}
+.introduction {
+    flex-direction: column;
+    order: 2;
+    margin-bottom: 10rem;
+}
+
+.intro__heading {
+    margin-top: 6rem;
+    font-weight: 700;
+}
+
+.intro__text {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+    width: 35rem;
+}
+
+.intro__button {
+    width: 140px;
+}
 
 /* Services Section Styles */
 
