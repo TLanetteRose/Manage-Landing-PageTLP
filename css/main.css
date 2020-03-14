@@ -102,6 +102,8 @@ input:focus {
 }
 
 .intro__heading {
+    font-family: "Be Vietnam",
+    sans-serif;
     margin-top: 6rem;
     font-weight: 700;
 }
@@ -119,12 +121,17 @@ input:focus {
 
 /* Services Section Styles */
 
-.services__heading {
-    margin-left: 2rem;
+.services__main-heading {
+    font-family: "Be Vietnam",
+    sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
 }
 
-.services__text {
-    transform: translateX(8rem);
+.services__main-text {
+    text-align: center;
+    line-height: 1.5;
 }
 
 .badge-pill {
