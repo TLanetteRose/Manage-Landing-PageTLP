@@ -12,8 +12,6 @@
 --neutral-color-pl-red: hsl(13, 100%, 96%);
 --neutral-color-lt-gray: hsl(0, 0%, 98%);
 
-
-
 }
 
 
@@ -29,8 +27,9 @@ html {
 }
 
 body {
-    background-color: hsl(13, 100%, 96%)
+    background-color: var(--neutral-color-lt-gray);
     font-family: "Be Vietnam", sans-serif;
+    font-size: 16px;
     overflow-x: hidden;
 }
 
@@ -199,7 +198,7 @@ input:focus {
 }
 
 .glide__arrow {
-    background-color: hsl(13, 100%, 96%);
+    background-color: var(--neutral-color-pl-red); 
 }
 
 .glide__bullets {
@@ -218,7 +217,7 @@ input:focus {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: hsl(12, 88%, 59%);
+    background-color: var(--primary-color-br-red);
     border: 2px solid hsl(12, 88%, 59%);
     margin: 0 0.5rem;
     transition: all 0.3s;
