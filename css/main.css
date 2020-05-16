@@ -1,5 +1,22 @@
 /* Mobile first styles */
 
+/* Variables */
+:root {
+  --primary-color-br-red: hsl(12, 88%, 59%);
+  --primary-color-dk-blue: hsl(228, 39%, 23%);
+  --primary-color-buttons: hsl(12, 88%, 59%);
+  --primary-color-dkgr-footer: hsl(233, 12%, 13%);
+  --primary-color-footer-logo: hsl(0, 0%, 100%);
+  --neutral-color-gr-blue: hsl(227, 12%, 61%);
+  --neutral-color-dk-blue: hsl(232, 12%, 13%);
+--neutral-color-pl-red: hsl(13, 100%, 96%);
+--neutral-color-lt-gray: hsl(0, 0%, 98%);
+
+
+
+}
+
+
 * {
     outline: 1px solid black;
     margin: 0;
@@ -41,7 +58,7 @@ input:focus {
 }
 
 .btn--primary {
-    background-color: hsl(12, 88%, 59%);
+    background-color: var(--primary-color-buttons);
     color: white;
     box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
     -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
