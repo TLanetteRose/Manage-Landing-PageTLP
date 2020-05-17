@@ -48,26 +48,27 @@ function isEmail(email) {
 
 const hamburger = document.getElementById('hamburger')
 const close = document.getElementById('close')
-const nav = document.getElementById('navbarToggler')
+const nav = document.getElementById('navbar-mobile')
 const container = document.querySelector('.container')
 
 hamburger.addEventListener('click', () => {
     hamburger.style.display = 'none';
     close.style.display = 'block';
-    nav.classList.add('navbarToggler')
-    container.classList.add('container')
+    nav.classList.add('navbar-mobile')
+    container.classList.add('nav-container')
 })
 
 close.addEventListener('click', () => {
     close.style.display = 'none';
     hamburger.style.display = 'block';
-    nav.classList.remove('navbarToggler')
+    nav.classList.remove('navbar-mobile')
+    container.classList.remove('nav-container')
 })
 
 window.addEventListener('resize', () => {
     close.style.display = 'none';
-    nav.classList.remove('navbarToggler')
-    container.classList.remove('container')
+    nav.classList.remove('navbar-mobile')
+    container.classList.remove('nav-container')
     if(window.innerWidth > 1024) {
         hamburger.style.display = 'none'
     } else {
