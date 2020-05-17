@@ -95,6 +95,31 @@ input:focus {
     -webkit-box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
 }
 
+.bg-image {
+    background-image: url('../images//bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    width: 750px;
+    height: 420px;
+    z-index: -1;
+}
+
+.bg__image2-mobile {
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+    position: absolute;
+    top: 300px;
+    right: -300px;
+    width: 750px; 
+    height: 420px;
+    z-index: -1;
+}
 /* Navbar section */
 
 .navbar {
