@@ -65,7 +65,7 @@ ul {
 p {
     font-size: 1.5rem;
 }
-
+/*
 .button:focus,
 input:focus {
     outline: none;
@@ -108,9 +108,9 @@ input:focus {
     color: hsl(12, 88%, 59%);
     box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
     -webkit-box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
-}
+}*/
 
-.bg-image {
+/*.bg-image {
     background-image: url('../images//bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -134,79 +134,15 @@ input:focus {
     width: 750px; 
     height: 420px;
     z-index: -1;
-}
+}*/
 /* Navbar section */
 
-.navbar__button {
-    display: none;
-}
-
-.navbar-link {
-    text-align: center;
-    font-family: "Be Vietnam",
-        sans-serif;
-    color: black;
-    font-size: 1.45rem;
-    margin-right: 1rem;
-    font-weight: 500;
-}
-
-.navbar .navbar-link:hover {
-    color: rgba(0, 0, 0, 0.4);
-}
-
-/* Intro Container*/
-
-.intro__image {
-    order: 1;
-    margin-top: 60px;
-}
-
-.introduction {
-    flex-direction: column;
-    order: 2;
-    margin-bottom: 10rem;
-}
-
-.intro__heading {
-    font-family: "Be Vietnam",
-        sans-serif;
-    margin-top: 6rem;
-    font-weight: 700;
-}
-
-.intro__text {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 1.5;
-    width: 35rem;
-}
-
-.intro__button {
-    width: 140px;
-}
-
-/* Services Section Styles */
-
-.services__main-heading {
-    font-family: "Be Vietnam",
-        sans-serif;
-    font-size: 3.5rem;
-    font-weight: 700;
-    text-align: center;
-}
-
-.services__main-text {
-    text-align: center;
-    line-height: 1.5;
-}
-
-.badge-pill {
-    background-color: hsl(12, 88%, 59%);
-    color: white;
-    font-size: 1.5rem;
-    padding: 0.4rem 2rem 0.6rem 2rem;
-    border-radius: 100px;
+.navigation {
+    overflow: hidden;
+    position: relative;
+    background: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 55vw -25vh;
 }
 
 /* Testimonial Section Style */
