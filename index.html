@@ -36,14 +36,7 @@
           <a href="#" class="navbar-brand py-2">
             <img src="./images/logo.svg" alt="Manage logo" class="navbar__img">
           </a>
-          <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarToggler"
-            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" id="hamburger">
-              <g fill="#242D52" fill-rule="evenodd">
-                <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
-              </g>
-            </svg>
-          </button>
+          
 
           <div id="navbarToggler" class="mobile__navbar collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
@@ -65,7 +58,21 @@
             </ul>
           </div>
           <!--.mobile__navbar-->
-          <a href="#" class="navbar__button button btn btn--primary">Get Started</a>
+          <button class="navbar__button button btn btn--primary"><a href="#">Get Started</a></button>
+          <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" id="hamburger">
+              <g fill="#242D52" fill-rule="evenodd">
+                <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
+              </g>
+            </svg>
+          </button>
+          <button class="navbar-toggler navbar__menu navbar__close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" id="close">
+              <path fill="#242D52" fill-rule="evenodd"
+                d="M17.925.747l2.828 2.828L13.328 11l7.425 7.425-2.828 2.828-7.425-7.425-7.425 7.425-2.828-2.828L7.671 11 .247 3.575 3.075.747 10.5 8.171 17.925.747z" />
+              </svg>
+          </button>
         </div><!--.container-fluid-->
       </nav>
     </header><!--.header-->
@@ -81,7 +88,7 @@
             Manage makes it simple for software teams to plan day-to-day
             tasks while keeping the larger team goals in view.
           </p>
-          <a href="#" class="intro__button button btn btn--primary mx-auto">Get Started</a>
+          <button class="intro__button button btn btn--primary mx-auto"><a href="#">Get Started</a></button>
         </div><!--.col-12-->
         <div class="col-12 col-md-6">
           <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro__image img-fluid mx-auto">
@@ -99,33 +106,43 @@
             Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
           </p>
         </div><!--.col-12-->
+
         <div  class="col-12 col-md-6 services__info mt-1 py-1">
-          <header class="services__info-header d-flex justify-content-start align-items-center mt-2">
+          <div class="services__info-header d-flex justify-content-start align-items-center mt-2">
             <div class="services__badge badge-pill badge-primary">01</div>
+            <div>
               <h3 class="services__heading ml-6">Track company-wide progress</h3>
-          </header><!--.services__info-header-->
-          <div class="services__text mt-4 w-75">
-            See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
-          </div><!--.services__text-->
+          
+              <div class="services__text mt-4 w-75">
+              See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+              </div> <!--.services__text-->
+            </div>
+          </div><!--.services__info-header-->
+        
 
-          <header class="services__info-header d-flex justify-content-start align-items-center mt-3">
+          <div class="services__info-header d-flex justify-content-start align-items-center mt-3">
             <div class="services__badge badge-pill badge-primary">02</div>
-            <h3 class="services__heading ml-6">Advanced built-in reports</h3>
-          </header>
-          <!--.services__info-header-->
-          <div class="services__text mt-4 w-75">
-            Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
-          </div><!--.services__text-->
-
-          <header class="services__info-header d-flex justify-content-start align-items-center mt-3">
+            <div>
+              <h3 class="services__heading ml-6">Advanced built-in reports</h3>
+              <div class="services__text mt-4 w-75">
+                Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build
+                out the reports you need to keep key stakeholders informed.
+              </div><!--.services__text-->
+            </div>
+          </div> <!--.services__info-header-->
+ 
+          <div class="services__info-header d-flex justify-content-start align-items-center mt-3">
             <div class="services__badge badge-pill badge-primary">03</div>
-            <h3 class="services__heading ml-6">Everything you need in one place</h3>
-          </header>
-          <!--.services__info-header-->
-          <div class="services__text mt-4 w-75">
-            Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team
-            productivity solution.
-          </div><!--.services__text-->
+            <div>
+              <h3 class="services__heading ml-6">Everything you need in one place</h3>
+              <div class="services__text mt-4 w-75">
+                Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers
+                an all-in-one team
+                productivity solution.
+              </div><!--.services__text-->
+            </div>
+          </div><!--.services__info-header-->
+          
         </div><!--.col-12-->
       </section><!--.services__container-->
 
