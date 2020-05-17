@@ -138,12 +138,18 @@ input:focus {
 /* Navbar section */
 
 .navigation {
-    overflow: hidden;
-    position: relative;
-    background: url("../images/bg-tablet-pattern.svg");
-    background-repeat: no-repeat;
-    background-position: 55vw -25vh;
+    padding: 30px 150px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
 }
+
+.navigation > div {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
 
 /* Testimonial Section Style */
 
