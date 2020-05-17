@@ -141,7 +141,7 @@ input:focus {
     display: none;
 }
 
-.nav-link {
+.navbar-link {
     text-align: center;
     font-family: "Be Vietnam",
         sans-serif;
@@ -151,7 +151,7 @@ input:focus {
     font-weight: 500;
 }
 
-.navbar .nav-link:hover {
+.navbar .navbar-link:hover {
     color: rgba(0, 0, 0, 0.4);
 }
 

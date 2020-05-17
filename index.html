@@ -6,9 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Bootstrap -->
+  <!-- Bootstrap 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
 
   <!-- FontAwesome-->
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
@@ -31,120 +31,109 @@
 
     <!-- Header Section-->
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="nav__container container-fluid">
-          <a href="#" class="navbar-brand py-2">
-            <img src="./images/logo.svg" alt="Manage logo" class="navbar__img">
+      <div class="navigation">
+        <div class="nav__container">
+          <a href="#" class="nav__brand">
+            <img src="./images/logo.svg" alt="Manage logo" class="navbar__logo">
           </a>
-          
-          <div id="navbarToggler" class="mobile__navbar collapse navbar-collapse justify-content-center">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#pricing" class="nav-link">Pricing</a>
+          <div id="navbar-mobile" class="mobileNavbar">
+            <ul class="navbar-menu">
+              <li class="navbar-item">
+                <a href="#pricing" class="navbar-link">Pricing</a>
               </li>
-              <li class="nav-item">
-                <a href="#product" class="nav-link">Product</a>
+              <li class="navbar-item">
+                <a href="#product" class="navbar-link">Product</a>
               </li>
-              <li class="nav-item">
-                <a href="#aboutus" class="nav-link">About Us</a>
+              <li class="navbar-item">
+                <a href="#aboutus" class="navbar-link">About Us</a>
               </li>
-              <li class="nav-item">
-                <a href="#careers" class="nav-link">Careers</a>
+              <li class="navbar-item">
+                <a href="#careers" class="navbar-link">Careers</a>
               </li>
-              <li class="nav-item">
-                <a href="#community" class="nav-link">Community</a>
+              <li class="navbar-item">
+                <a href="#community" class="navbar-link">Community</a>
               </li>
             </ul>
-          </div>
-          <!--.mobile__navbar-->
-          <button class="navbar__button button btn btn--primary"><a href="#">Get Started</a></button>
-          <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarToggler"
-            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          </div> <!--.mobileNavbar-->
+          <button class="primary-btn"><a href="#">Get Started</a></button>
+          <button class="toggle-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" id="hamburger">
               <g fill="#242D52" fill-rule="evenodd">
                 <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
               </g>
             </svg>
           </button>
-          <button class="navbar-toggler navbar__menu navbar__close">
+          <button class="toggle-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" id="close">
               <path fill="#242D52" fill-rule="evenodd"
                 d="M17.925.747l2.828 2.828L13.328 11l7.425 7.425-2.828 2.828-7.425-7.425-7.425 7.425-2.828-2.828L7.671 11 .247 3.575 3.075.747 10.5 8.171 17.925.747z" />
               </svg>
           </button>
-        </div><!--.container-fluid-->
-      </nav>
-    </div><!--.header-->
+        </div><!--.nav__container-->
+      </div>
+    
 
     <!--Introduction Section-->
-    <main role="main" class="justify-content-between align-items-center">
-      <section class="container-fluid intro__container row mx-auto">
-        <div class="col-12 col-md-6 introduction d-flex">
-          <h1 class="intro__heading display-3 text-center">
+    <main class="main">
+      <section class="intro__container">
+        <div>
+          <h1 class="intro__heading">
             Bring everyone together to build better products.
           </h1>
-          <p class="intro__text my-5 mx-auto pb-3 text-muted">
+          <p class="intro__text">
             Manage makes it simple for software teams to plan day-to-day
             tasks while keeping the larger team goals in view.
           </p>
-          <button class="intro__button button btn btn--primary mx-auto"><a href="#">Get Started</a></button>
-        </div><!--.col-12-->
-        <div class="bg_image2-mobile"></div>
-
-        <div class="col-12 col-md-6">
-          <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro__image img-fluid mx-auto">
-        </div><!--.col-12-->
-        <div class="bg__image2__mobile"></div>
+          <button class="primary-btn"><a href="#">Get Started</a></button>
+        </div>
+        <div>
+          <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro__image">
+        </div>
       </section><!--.intro__container-->
 
       <!--Services Container-->
-      <section class="services__container container-fluid row mx-auto mt-1 py-1">
-        <div class="col-12 col-md-6  mt-1 py-1">
-          <h1 class="services__main-heading display-5 mx-auto mt-2 w-75">
+      <section class="services__container">
+        <div>
+          <h1 class="services__main-heading">
             What’s different about Manage?
           </h1>
-          <p class="services__main-text mx-auto my-5 w-75 text-muted">
+          <p class="services__main-text">
             Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.
           </p>
-        </div><!--.col-12-->
+        </div>
 
-        <div  class="col-12 col-md-6 services__info mt-1 py-1">
-          <div class="services__info-header d-flex justify-content-start align-items-center mt-2">
-            <div class="services__badge badge-pill badge-primary">01</div>
+        <div>
+          <div class="services__badge">01</div>
             <div>
-              <h3 class="services__heading ml-6">Track company-wide progress</h3>
-          
-              <div class="services__text mt-4 w-75">
+              <h3 class="services__heading">Track company-wide progress</h3>
+              <p class="services__text">
               See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.
-              </div> <!--.services__text-->
+              </p> <!--.services__text-->
             </div>
-          </div><!--.services__info-header-->
+        </div>
         
-
-          <div class="services__info-header d-flex justify-content-start align-items-center mt-3">
-            <div class="services__badge badge-pill badge-primary">02</div>
+        <div>
+          <div class="services__badge">02</div>
             <div>
-              <h3 class="services__heading ml-6">Advanced built-in reports</h3>
-              <div class="services__text mt-4 w-75">
-                Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build
-                out the reports you need to keep key stakeholders informed.
-              </div><!--.services__text-->
-            </div>
-          </div> <!--.services__info-header-->
+              <h3 class="services__heading">Advanced built-in reports</h3>
+              <p class="services__text">
+              Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build
+              out the reports you need to keep key stakeholders informed.
+            </div><!--.services__text-->
+          </div>
+        </div> 
  
-          <div class="services__info-header d-flex justify-content-start align-items-center mt-3">
-            <div class="services__badge badge-pill badge-primary">03</div>
+        <div>
+          <div class="services__badge">03</div>
             <div>
-              <h3 class="services__heading ml-6">Everything you need in one place</h3>
-              <div class="services__text mt-4 w-75">
+              <h3 class="services__heading">Everything you need in one place</h3>
+              <p class="services__text">
                 Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers
                 an all-in-one team
                 productivity solution.
               </div><!--.services__text-->
             </div>
-          </div><!--.services__info-header-->
-          
-        </div><!--.col-12-->
+        </div>
       </section><!--.services__container-->
 
       <!--Testimonials Section-->
@@ -204,7 +193,7 @@
           </div><!--.glide__bullets-->
 
           <div class="testimonial__cta">
-            <button class="testimonial__button button btn btn--primary"><a href="#">Get Started</a></button>
+            <button class="primary-btn"><a href="#">Get Started</a></button>
           </div>
           <!--.testimonial__cta-->
         </div><!--.testimonial-->
@@ -212,23 +201,21 @@
       </section><!--.testimonial__container-->
 
       <!--Information Section-->
-      <section class="info__container d-flex align-items-center">
-        <div class="container-fluid">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-md-6 mx-auto">
-              <h2 class="simplify info__heading text-light">Simplify how your team works today.</h2>
-            </div><!--.col-md-6-->
-            <div class="col-md-4 mx-auto">
-              <button class="info__button button btn btn--white"><a href="#">Get Started</a></button>
+      <section class="info__container">
+          <div>
+            <div class="simplify-section">
+              <h2 class="info__heading">Simplify how your team works today.</h2>
+            </div>
+            <div>
+              <button class="primary-btn btn--white"><a href="#">Get Started</a></button>
               <img src="./images/bg-simplify-section-mobile.svg" alt="pattern">
-            </div><!--.col-md-4-->
+            </div>
           </div>
-        </div><!--.container-->
       </section><!--.info__container--> 
     </main><!--.main-->
   
     <footer class="footer">
-      <div class="footer__container containier-fluid">
+      <div class="footer__container">
         <div class="footer__section-1">
           <form id="form" action="">
             <input id="email" type="email" placeholder="Updates in your inbox…">
@@ -293,7 +280,8 @@
       </div><!--.footer__container-->
     </footer><!--.footer-->
     
-  
+  </div> <!--.container-->
+
     <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">T.Lanette</a>.
@@ -301,13 +289,14 @@
 
   <!-- Scripts -->
 
-  <!--Bootstrap scripts-->
+  <!--Bootstrap scripts
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>-->
 
   <!--Glide JS scripts-->
   <script src="/js/glide.min.js"></script>
