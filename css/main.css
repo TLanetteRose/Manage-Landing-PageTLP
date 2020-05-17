@@ -34,6 +34,21 @@ body {
     overflow-x: hidden;
 }
 
+button, .navbar > div:nth-child(2) > div,
+.footer__container > div:first-child > div > svg,
+.footer__container > div: :nth-child(2) > div,
+.footer__container > div:nth-child(3) > div {
+    cursor: pointer;
+}
+
+.container {
+    overflow: hidden;
+    position: relative;
+    background: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 55vw  - 25vh;;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--neutral-color-dk-blue); 
 }
@@ -122,12 +137,6 @@ input:focus {
 }
 /* Navbar section */
 
-.navbar {
-    padding-top: 3rem;
-}
-
-
-
 .navbar__button {
     display: none;
 }
@@ -150,6 +159,7 @@ input:focus {
 
 .intro__image {
     order: 1;
+    margin-top: 60px;
 }
 
 .introduction {

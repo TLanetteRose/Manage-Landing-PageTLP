@@ -42,3 +42,35 @@ function checkInput() {
     }
 }
 
+function isEmail(email) {
+    return (/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+ [a-zA-Z]{2,}))$/.test(email));
+}
+
+const hamburger = document.getElementById('hamburger')
+const close = document.getElementById('close')
+const nav = document.getElementById('navbarToggler')
+const container = document.querySelector('.container')
+
+hamburger.addEventListener('click', () => {
+    hamburger.style.display = 'none';
+    close.style.display = 'block';
+    nav.classList.add('navbarToggler')
+    container.classList.add('container')
+})
+
+close.addEventListener('click', () => {
+    close.style.display = 'none';
+    hamburger.style.display = 'block';
+    nav.classList.remove('navbarToggler')
+})
+
+window.addEventListener('resize', () => {
+    close.style.display = 'none';
+    nav.classList.remove('navbarToggler')
+    container.classList.remove('container')
+    if(window.innerWidth > 1024) {
+        hamburger.style.display = 'none'
+    } else {
+        hamburger.style.display = 'block'
+    }
+})
