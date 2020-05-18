@@ -11,6 +11,7 @@
   --neutral-color-dk-blue: hsl(232, 12%, 13%);
   --neutral-color-pl-red: hsl(13, 100%, 96%);
   --neutral-color-lt-gray: hsl(0, 0%, 98%);
+  --hover-btn-background: hsl(12, 88%, 69%);
 
 }
 
@@ -148,6 +149,40 @@ input:focus {
     display: flex;
     justify-content: center;
     font-weight: 500;
+}
+
+.navigation > div > div {
+    margin: 0 12px;
+}
+
+.navigation > div:nth-child(2) > div:hover {
+    color: hsl(227, 12%, 61%);
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-family: 'Be Vietnam', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500; 
+}
+.primary-btn {
+    background: var(--primary-color-buttons);
+    box-shadow: 0px 1px 4px 0px lightgray;
+}
+
+.primary-btn:hover {
+    background: var(--hover-btn-background);
+}
+
+.intro__container, 
+.services__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 150px;
+    gap: 50px;
 }
 
 
