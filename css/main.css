@@ -34,26 +34,7 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    overflow: hidden;
-    position: relative;
-    background: url("../images/bg-tablet-pattern.svg");
-    background-repeat: no-repeat;
-    background-position: 50vw -25vh;
-}
 
-button:focus,
-input:focus {
-    outline: none;
-}
-
-/* Navigation */
-
-
-
-.nav-btn {
-    display: none;
-}
 
 
 
