@@ -1,5 +1,5 @@
 /* Mobile first styles */
-
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam:400,500i,700&display=swap");
 /* Variables */
 :root {
   --primary-color-br-red: hsl(12, 88%, 59%);
@@ -25,7 +25,6 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
 }
 
 body {
@@ -35,155 +34,9 @@ body {
     overflow-x: hidden;
 }
 
-button, .navbar > div:nth-child(2) > div,
-.footer__container > div:first-child > div > svg,
-.footer__container > div: :nth-child(2) > div,
-.footer__container > div:nth-child(3) > div {
-    cursor: pointer;
-}
 
-.container {
-    overflow: hidden;
-    position: relative;
-    background: url('../images/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
-    background-position: 55vw  - 25vh;;
-}
 
-h1, h2, h3, h4, h5, h6 {
-    color: var(--neutral-color-dk-blue); 
-}
 
-a {
-    color: var(--neutral-color-lt-gray);
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-p {
-    font-size: 1.5rem;
-}
-/*
-.button:focus,
-input:focus {
-    outline: none;
-}
-
-.button {
-    border: none;
-    padding: 1rem 3rem;
-    font-size: 1.4rem;
-    font-weight: 500;
-    border-radius: 300px;
-    transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-}
-
-.button:hover {
-    text-decoration: none;
-}
-
-.btn--primary {
-    background-color: hsl(12, 88%, 59%);
-    color: white;
-    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
-    -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
-
-}
-
-.btn--primary:hover {
-    background-color: rgba(242, 95, 58, 0.4);
-    color: white;
-}
-
-.btn--white {
-    background-color: white;
-    color: hsl(12, 88%, 59%);
-}
-
-.btn--white:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: hsl(12, 88%, 59%);
-    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
-    -webkit-box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
-}*/
-
-/*.bg-image {
-    background-image: url('../images//bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right;
-    position: absolute;
-    top: -80px;
-    right: -100px;
-    width: 750px;
-    height: 420px;
-    z-index: -1;
-}
-
-.bg__image2-mobile {
-    background-image: url('../images/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom left;
-    position: absolute;
-    top: 300px;
-    right: -300px;
-    width: 750px; 
-    height: 420px;
-    z-index: -1;
-}*/
-/* Navbar section */
-
-.navigation {
-    padding: 30px 150px;
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    align-items: center;
-}
-
-.navigation > div {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-}
-
-.navigation > div > div {
-    margin: 0 12px;
-}
-
-.navigation > div:nth-child(2) > div:hover {
-    color: hsl(227, 12%, 61%);
-}
-
-.btn {
-    width: 150px;
-    height: 40px;
-    font-family: 'Be Vietnam', sans-serif;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-weight: 500; 
-}
-.primary-btn {
-    background: var(--primary-color-buttons);
-    box-shadow: 0px 1px 4px 0px lightgray;
-}
-
-.primary-btn:hover {
-    background: var(--hover-btn-background);
-}
-
-.intro__container, 
-.services__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 30px 150px;
-    gap: 50px;
-}
 
 
 /* Testimonial Section Style */
