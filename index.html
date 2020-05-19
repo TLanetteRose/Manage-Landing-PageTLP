@@ -6,9 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Bootstrap 
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <!-- FontAwesome-->
   <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
@@ -28,53 +28,46 @@
 <body>
 
     <!-- Header Section-->
-    <div class="container">
-      <div class="navigation">
-        <div class="nav-container">
-          <a href="#" class="nav__brand">
-            <img src="./images/logo.svg" alt="Manage logo" class="navbar__logo">
-          </a>
-          <div id="navbar-mobile" class="mobileNavbar">
-            <ul class="navbar-menu">
-              <li class="navbar-item">
-                <a href="#pricing" class="navbar-link">Pricing</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#product" class="navbar-link">Product</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#aboutus" class="navbar-link">About Us</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#careers" class="navbar-link">Careers</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#community" class="navbar-link">Community</a>
-              </li>
-            </ul>
-          </div> <!--.mobileNavbar-->
-          <button class="btn primary-btn"><a href="#">Get Started</a></button>
-          <button class="toggle-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" id="hamburger">
-              <g fill="#242D52" fill-rule="evenodd">
-                <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
-              </g>
-            </svg>
-          </button>
-          <button class="toggle-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" id="close">
-              <path fill="#242D52" fill-rule="evenodd"
-                d="M17.925.747l2.828 2.828L13.328 11l7.425 7.425-2.828 2.828-7.425-7.425-7.425 7.425-2.828-2.828L7.671 11 .247 3.575 3.075.747 10.5 8.171 17.925.747z" />
-              </svg>
-          </button>
-        </div><!--.nav__container-->
-      </div><!--.navigation-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md justify-content-between align-items-center">
+      <a href="#" class="navbar-brand">
+        <img src="./images/logo.svg" alt="Manage logo" class="navbar__logo">
+      </a>
+
+      <button class="navbar-toggler navbar__menu" data-toggle="collapse" data-target="#navbarcollapse">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" id="hamburger" class="navbar__icon">
+          <g fill="#242D52" fill-rule="evenodd">
+            <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
+          </g>
+        </svg>
+      </button>
+
+      <div id="navbarcollapse" class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#product" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="#aboutus" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#careers" class="nav-link">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#community" class="nav-link">Community</a>
+          </li>
+        </ul>
+      </div> <!--.collapse-->
+      <button class="button primary-btn navbar__button"><a href="#">Get Started</a></button>
+    </nav>
     
 
     <!--Introduction Section-->
-    <main class="main">
-      <section class="intro__container">
-        <div>
+      <main class="main row align-items-center justify-content-between">
+        <div class="col-md-5"></div>
           <h1 class="intro__heading">
             Bring everyone together to build better products.
           </h1>
@@ -82,12 +75,13 @@
             Manage makes it simple for software teams to plan day-to-day
             tasks while keeping the larger team goals in view.
           </p>
-          <button class="btn primary-btn"><a href="#">Get Started</a></button>
+          <button class="button primary-btn"><a href="#">Get Started</a></button>
         </div>
-        <div>
-          <img src="images/illustration-intro.svg" alt="Intro illustration" class="intro__image">
+
+        <div class="col-md-5">
+          <img src="./images/illustration-intro.svg" alt="Intro illustration" class="main__image">
         </div>
-      </section><!--.intro__container-->
+      </main><!--.main-->
 
       <!--Services Container-->
       <section class="services__container">
@@ -131,8 +125,8 @@
                 productivity solution.
               </p><!--.services__text-->
             </div>
-        </div>
-      </section><!--.services__container-->
+          </div>
+        </section><!--.services__container-->
 
       <!--Testimonials Section-->
       <section class="testimonial__container text-center">
@@ -210,7 +204,7 @@
             </div>
           </div>
       </section><!--.info__container--> 
-    </main><!--.main-->
+  
   
     <footer class="footer">
       <div class="footer__container">
@@ -280,21 +274,21 @@
     
   </div> <!--.container-->
 
-    <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">T.Lanette</a>.
   </div>
 
   <!-- Scripts -->
 
-  <!--Bootstrap scripts
+  <!--Bootstrap scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>-->
+    </script>
 
   <!--Glide JS scripts-->
   <script src="/js/glide.min.js"></script>
