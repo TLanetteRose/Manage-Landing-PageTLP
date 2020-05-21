@@ -37,6 +37,30 @@ body {
     overflow-x: hidden;
 }
 
+.button {
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 300px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.primary-btn,
+.primary-btn a {
+    background-color: var(--primary-color-buttons);
+    color: white;
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+    -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+}
+
+.simplify-btn, 
+.simplify-btn a {
+    background-color: var(--neutral-color-lt-gray);
+    color: var(--primary-color-buttons);
+}
+
 
 /* Navigation */
 
