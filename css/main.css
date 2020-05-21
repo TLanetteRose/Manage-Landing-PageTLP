@@ -12,7 +12,7 @@
   --neutral-color-pl-red: hsl(13, 100%, 96%);
   --neutral-color-lt-gray: hsl(0, 0%, 98%);
   --hover-btn-background: hsl(12, 88%, 69%);
-
+  --hover-simplify-btn-background: hsl(227, 12%, 61%);
 }
 
 
@@ -54,11 +54,29 @@ body {
     box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
     -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
 }
-
-.simplify-btn, 
+ 
+.simplify-btn,
 .simplify-btn a {
     background-color: var(--neutral-color-lt-gray);
-    color: var(--primary-color-buttons);
+    color: var(--primary-color-br-red);
+   
+}
+
+button:hover {
+    text-decoration: none;
+}
+
+.primary-btn:hover,
+.primary-btn a:hover {
+    background-color: var(--hover-btn-background);
+    color: white;
+}
+
+.simplify-btn:hover,
+.simplify-btn a:hover {
+    background-color: var(--hover-simplify-btn-background);
+    color: white;
+
 }
 
 
