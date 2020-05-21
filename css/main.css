@@ -79,10 +79,33 @@ button:hover {
 
 }
 
+.paragraph {
+    font-size: 1.5rem;
+}
 
 /* Navigation */
+.navbar {
+    padding-top: 3rem;
+}
 
+.navbar .nav-link {
+    color: var(--primary-color-dk-blue);
+    font-size: 1.45rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
 
+.navbar, 
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-toggler-icon {
+    width: 20px; 
+    heigh: 20px;
+}
+
+/* Main */
 
 
 
