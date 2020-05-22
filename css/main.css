@@ -128,6 +128,11 @@ button:hover {
 /* Services Section Style */
 .services__container {
     margin-top: 15rem;
+    justify-content: space-between;
+}
+
+.services {
+    width: 90%;
 }
 
 
@@ -239,11 +244,17 @@ button:hover {
 
 /* Info Container */
 .simplify__container {
-    height: 150px;
     background-color: hsl(12, 88%, 59%);
     background-image: url('../images/bg-simplify-section-desktop.svg');
     margin-top: 15rem;
     padding: 5rem 0;
+}
+
+.simplify__heading {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    width: 65%;
 }
 
 
@@ -251,14 +262,14 @@ button:hover {
 
 footer {
     width: 100%;
-    height: 300px;
     background-color: hsl(233, 12%, 13%);
     color: white;
+    padding: 6rem 0;
 }
 
 .footer__container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer__logo {}
