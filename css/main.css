@@ -108,8 +108,12 @@ button:hover {
 
 /* Main */
 .intro__heading {
+    width: 75%;
     font-weight: 700;
     font-size: 5rem;
+}
+.intro__text {
+    width: 60%;
 }
 
 
