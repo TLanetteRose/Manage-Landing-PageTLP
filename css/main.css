@@ -130,9 +130,11 @@ button:hover {
     margin-top: 15rem;
 }
 
+
 .services__content {
     margin-bottom: 4rem;
     overflow-x: hidden;
+    width: 80%;
 }
 .services__main-heading {
     font-size: 3rem;
@@ -179,8 +181,8 @@ button:hover {
 .testimonial__heading {
     justify-content: center;
     align-items: center;
-
-
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .glide {
@@ -208,7 +210,7 @@ button:hover {
 }
 
 .glide__arrow {
-    background-color: hsl(13, 100%, 96%);
+    background-color: var(--neutral-color-lt-gray);
 }
 
 .glide__bullets {
