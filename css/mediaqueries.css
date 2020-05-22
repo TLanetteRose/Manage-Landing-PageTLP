@@ -1,5 +1,38 @@
-
 /* Response Nav Styles */
+
+/* Navigation */
+
+@media (max-width: 768px) {
+    .navbar__btn {
+        display: none;
+    }
+    .navbar-nav {
+        align-items: center;
+        padding: 3rem 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Main */
+
+@media (max-width: 768px) {
+    .intro__section {
+        order: 2;
+    }
+    .intro__heading {
+        text-align: center;
+        width: 100%;
+    }
+    .intro__text {
+        text-align: center;
+        width: 100%;
+    }
+    .intro__image {
+        width: 100%;
+        order: 1;
+    }
+}
 
 
 

@@ -1,4 +1,4 @@
-/* Mobile first styles */
+/* Mobile first with Bootstrap */
 @import url("https://fonts.googleapis.com/css?family=Be+Vietnam:400,500i,700&display=swap");
 /* Variables */
 :root {
@@ -83,7 +83,7 @@ button:hover {
     font-size: 1.5rem;
 }
 
-/* Navigation */
+/* Navigation Style */
 .navbar {
     padding-top: 3rem;
 }
@@ -105,11 +105,75 @@ button:hover {
     heigh: 20px;
 }
 
-/* Main */
+
+/* Main Style */
+.main {
+    margin-top: 6rem;
+}
+
+.intro__heading {
+    width: 75%;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.intro__text {
+    width: 60%;
+    font-size: 1.75rem;
+}
+
+.intro__image {
+    width: 100%;
+}
+
+/* Services Section Style */
+.services__container {
+    margin-top: 15rem;
+    justify-content: space-between;
+}
+
+.services {
+    width: 90%;
+}
 
 
+.services__content {
+    margin-bottom: 4rem;
+    overflow-x: hidden;
+    width: 80%;
+}
+.services__main-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 65%;
+}
 
+.services__main-text {
+    width: 45%;
+}
 
+.services__header {
+    display: flex;
+    align-items: center;
+}
+
+.services__badge {
+    background-color: var(--primary-color-br-red);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem 2rem 0.6rem 2rem;
+    border-radius: 100px;
+}
+
+.services__heading {
+    margin-left: 2rem;
+    font-weight: 700;
+}
+
+.services__text {
+    transform: translateX(8rem);
+    margin-top: 1rem;
+    width: 50%;
+}
 
 /* Testimonial Section Style */
 
@@ -122,8 +186,8 @@ button:hover {
 .testimonial__heading {
     justify-content: center;
     align-items: center;
-
-
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .glide {
@@ -151,7 +215,7 @@ button:hover {
 }
 
 .glide__arrow {
-    background-color: hsl(13, 100%, 96%);
+    background-color: var(--neutral-color-lt-gray);
 }
 
 .glide__bullets {
@@ -180,11 +244,17 @@ button:hover {
 
 /* Info Container */
 .simplify__container {
-    height: 150px;
     background-color: hsl(12, 88%, 59%);
     background-image: url('../images/bg-simplify-section-desktop.svg');
     margin-top: 15rem;
     padding: 5rem 0;
+}
+
+.simplify__heading {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    width: 65%;
 }
 
 
@@ -192,14 +262,14 @@ button:hover {
 
 footer {
     width: 100%;
-    height: 300px;
     background-color: hsl(233, 12%, 13%);
     color: white;
+    padding: 6rem 0;
 }
 
 .footer__container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer__logo {}
