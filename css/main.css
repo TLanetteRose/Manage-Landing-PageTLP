@@ -83,7 +83,7 @@ button:hover {
     font-size: 1.5rem;
 }
 
-/* Navigation */
+/* Navigation Style */
 .navbar {
     padding-top: 3rem;
 }
@@ -106,7 +106,7 @@ button:hover {
 }
 
 
-/* Main */
+/* Main Style */
 .main {
     margin-top: 6rem;
 }
@@ -125,6 +125,10 @@ button:hover {
     width: 100%;
 }
 
+/* Services Section Style */
+.services__container {
+    margin-top: 15rem;
+}
 
 
 /* Testimonial Section Style */
