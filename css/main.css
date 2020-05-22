@@ -107,6 +107,10 @@ button:hover {
 
 
 /* Main */
+.main {
+    margin-top: 6rem;
+}
+
 .intro__heading {
     width: 75%;
     font-weight: 700;
@@ -115,9 +119,11 @@ button:hover {
 .intro__text {
     width: 60%;
     font-size: 1.75rem;
-
 }
 
+.intro__image {
+    width: 100%;
+}
 
 
 

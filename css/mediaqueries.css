@@ -6,6 +6,12 @@
     .navbar__btn {
         display: none;
     }
+    .navbar-nav {
+        align-items: center;
+        padding: 3rem 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
 }
 
 /* Main */
