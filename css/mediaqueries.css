@@ -1,5 +1,24 @@
-
 /* Response Nav Styles */
+
+/* Navigation */
+
+@media (max-width: 768px) {
+    .navbar__btn {
+        display: none;
+    }
+}
+
+/* Main */
+
+@media (max-width: 768px) {
+    .intro__section {
+        order: 2;
+    }
+    .intro__image {
+        width: 100%;
+        order: 1;
+    }
+}
 
 
 

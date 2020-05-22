@@ -1,4 +1,4 @@
-/* Mobile first styles */
+/* Mobile first with Bootstrap */
 @import url("https://fonts.googleapis.com/css?family=Be+Vietnam:400,500i,700&display=swap");
 /* Variables */
 :root {
@@ -105,8 +105,12 @@ button:hover {
     heigh: 20px;
 }
 
-/* Main */
 
+/* Main */
+.intro__heading {
+    font-weight: 700;
+    font-size: 5rem;
+}
 
 
 
