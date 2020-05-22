@@ -16,9 +16,11 @@
     }
     .intro__heading {
         text-align: center;
+        width: 100%;
     }
     .intro__text {
         text-align: center;
+        width: 100%;
     }
     .intro__image {
         width: 100%;
