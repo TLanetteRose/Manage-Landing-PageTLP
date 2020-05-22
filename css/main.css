@@ -130,6 +130,43 @@ button:hover {
     margin-top: 15rem;
 }
 
+.services__content {
+    margin-bottom: 4rem;
+    overflow-x: hidden;
+}
+.services__main-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 65%;
+}
+
+.services__main-text {
+    width: 45%;
+}
+
+.services__header {
+    display: flex;
+    align-items: center;
+}
+
+.services__badge {
+    background-color: var(--primary-color-br-red);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem 2rem 0.6rem 2rem;
+    border-radius: 100px;
+}
+
+.services__heading {
+    margin-left: 2rem;
+    font-weight: 700;
+}
+
+.services__text {
+    transform: translateX(8rem);
+    margin-top: 1rem;
+    width: 50%;
+}
 
 /* Testimonial Section Style */
 
