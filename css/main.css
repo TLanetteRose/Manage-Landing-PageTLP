@@ -6,12 +6,12 @@
   --primary-color-dk-blue: hsl(228, 39%, 23%);
   --primary-color-buttons: hsl(12, 88%, 59%);
   --primary-color-dkgr-footer: hsl(233, 12%, 13%);
-  --primary-color-footer-logo: hsl(0, 0%, 100%);
+  --primary-color-font-light: hsl(0, 0%, 100%);
   --neutral-color-gr-blue: hsl(227, 12%, 61%);
   --neutral-color-dk-blue: hsl(232, 12%, 13%);
   --neutral-color-pl-red: hsl(13, 100%, 96%);
   --neutral-color-lt-gray: hsl(0, 0%, 98%);
-  --hover-btn-background: hsl(12, 88%, 69%);
+  --hover-btn-link-color: hsl(12, 88%, 69%);
   --hover-simplify-btn-background: hsl(227, 12%, 61%);
 }
 
@@ -69,7 +69,7 @@ button:hover {
 .primary-btn:hover,
 .primary-btn a:hover {
     background-color: var(--hover-btn-background);
-    color: white;
+    color: var(--primary-color-br-red);
 }
 
 .simplify-btn:hover,
@@ -251,10 +251,13 @@ button:hover {
 }
 
 .simplify__heading {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: white;
-    font-weight: 700;
-    width: 65%;
+    font-weight: 500;
+    
+}
+.simplify__container .row > .col-md-4 {
+    text-align: right;
 }
 
 
@@ -268,11 +271,63 @@ footer {
 }
 
 .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 60px 150px;
+}
+
+.footer__section-1 {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.footer__logo {}
+.footer__social-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.footer__social-logo:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.footer__section-2,
+.footer__section-3 {
+    display: flex;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer__links {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.footer__links:hover {
+    color: var(--hover-btn-link-color);
+    text-decoration: none;
+}
+
+.footer__form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer__input {
+    border-radius: 100px;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
 
 
 /* Attribution */
