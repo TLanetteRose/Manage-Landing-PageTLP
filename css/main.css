@@ -143,7 +143,6 @@ button:hover {
     background: url("../images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
     background-position: -35vw 25vh;
-    overflow: hidden;
     
 }
 
