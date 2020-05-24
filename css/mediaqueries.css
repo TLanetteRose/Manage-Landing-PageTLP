@@ -17,21 +17,16 @@
 /* Main */
 
 @media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .intro__section {
-        order: 2;
-    }
-    .intro__heading {
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        width: 100%;
     }
-    .intro__text {
-        text-align: center;
-        width: 100%;
-    }
-    .intro__image {
-        width: 100%;
-        order: 1;
-    }
+    
 }
 
 
