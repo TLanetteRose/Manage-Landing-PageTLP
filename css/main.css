@@ -83,6 +83,15 @@ button:hover {
     font-size: 1.5rem;
 }
 
+.container-fluid {
+    overflow: hidden;
+    position: relative;
+    background: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 55vw -25vh;
+}
+
+
 /* Navigation Style */
 .navbar {
     padding-top: 3rem;
@@ -97,7 +106,7 @@ button:hover {
 
 .navbar, 
 .nav-link:hover {
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--primary-color-br-red);
 }
 
 .navbar-toggler-icon {
@@ -112,13 +121,14 @@ button:hover {
 }
 
 .intro__heading {
-    width: 75%;
+    width: 85%;
     font-weight: 700;
     font-size: 5rem;
 }
 .intro__text {
-    width: 60%;
+    width: 70%;
     font-size: 1.75rem;
+    
 }
 
 .intro__image {
@@ -129,6 +139,12 @@ button:hover {
 .services__container {
     margin-top: 15rem;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    background: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: -35vw 25vh;
+    
 }
 
 .services {
@@ -148,7 +164,7 @@ button:hover {
 }
 
 .services__main-text {
-    width: 45%;
+    width: 75%;
 }
 
 .services__header {
@@ -172,7 +188,7 @@ button:hover {
 .services__text {
     transform: translateX(8rem);
     margin-top: 1rem;
-    width: 50%;
+    width: 60%;
 }
 
 /* Testimonial Section Style */
@@ -244,10 +260,13 @@ button:hover {
 
 /* Info Container */
 .simplify__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: hsl(12, 88%, 59%);
-    background-image: url('../images/bg-simplify-section-desktop.svg');
     margin-top: 15rem;
     padding: 5rem 0;
+    background-image: url('../images/bg-simplify-section-desktop.svg');
 }
 
 .simplify__heading {
@@ -321,19 +340,32 @@ footer {
     text-decoration: none;
 }
 
+.footer__section-4 {
+    margin-left: 40px;
+}
 
 .footer__form {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    
 }
 
 .footer__input {
-    border-radius: 100px;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
     border: none;
-    padding: 1rem 2rem;
+    padding: 10px;
+    font-family: "Be Vietnam", sans-serif;
     font-size: 1.4rem;
-    margin-right: 1rem;
+}
+
+.form-btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 20px;
+
 }
 
 .footer__copyright {
