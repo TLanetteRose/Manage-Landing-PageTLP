@@ -83,6 +83,14 @@ button:hover {
     font-size: 1.5rem;
 }
 
+.container-fluid {
+    overflow: hidden;
+    position: relative;
+    background: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 55vw -25vh;
+}
+
 /* Navigation Style */
 .navbar {
     padding-top: 3rem;
@@ -244,10 +252,13 @@ button:hover {
 
 /* Info Container */
 .simplify__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: hsl(12, 88%, 59%);
-    background-image: url('../images/bg-simplify-section-desktop.svg');
     margin-top: 15rem;
     padding: 5rem 0;
+    
 }
 
 .simplify__heading {
@@ -321,19 +332,32 @@ footer {
     text-decoration: none;
 }
 
+.footer__section-4 {
+    margin-left: 40px;
+}
 
 .footer__form {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    
 }
 
 .footer__input {
-    border-radius: 100px;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
     border: none;
-    padding: 1rem 2rem;
+    padding: 10px;
+    font-family: "Be Vietnam", sans-serif;
     font-size: 1.4rem;
-    margin-right: 1rem;
+}
+
+.form-btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 20px;
+
 }
 
 .footer__copyright {
