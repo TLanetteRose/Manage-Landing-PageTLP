@@ -42,4 +42,20 @@
 }
 
 
+/* Services */
+@media (max-width: 768px){
+.services__header {
+    background-color: var(--neutral-color-pl-red);
+    border-radius: 100px;
+ }
+ .services {
+     margin-top: 30px;
+ }
+ .services__intro {
+     margin-bottom: 40px;
+     justify-content: center;
+     align-self: center;
+
+ }
+}
 
