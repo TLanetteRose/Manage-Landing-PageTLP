@@ -121,13 +121,14 @@ button:hover {
 }
 
 .intro__heading {
-    width: 75%;
+    width: 85%;
     font-weight: 700;
     font-size: 5rem;
 }
 .intro__text {
-    width: 60%;
+    width: 70%;
     font-size: 1.75rem;
+    
 }
 
 .intro__image {
@@ -163,7 +164,7 @@ button:hover {
 }
 
 .services__main-text {
-    width: 45%;
+    width: 75%;
 }
 
 .services__header {
@@ -187,7 +188,7 @@ button:hover {
 .services__text {
     transform: translateX(8rem);
     margin-top: 1rem;
-    width: 50%;
+    width: 60%;
 }
 
 /* Testimonial Section Style */
