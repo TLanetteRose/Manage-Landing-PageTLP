@@ -20,12 +20,24 @@
     .main {
         display: flex;
         flex-direction: column-reverse;
+        justify-content: space-between;
     }
     .intro__section {
-        justify-content: center;
         align-items: center;
+    }
+    .intro__image {
+       margin-bottom: 40px;
+    }
+    .intro__heading {
+        width: 100%;
         text-align: center;
     }
+    .intro__text {
+        width: 90%;
+        margin: 20px;
+        text-align: center;
+    }
+    
     
 }
 
