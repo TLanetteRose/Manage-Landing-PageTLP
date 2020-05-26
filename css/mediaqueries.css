@@ -21,9 +21,13 @@
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
+        align-items: center;
     }
     .intro__section {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        padding: 20px 40px;  
     }
     .intro__image {
        margin-bottom: 40px;
@@ -33,7 +37,7 @@
         text-align: center;
     }
     .intro__text {
-        width: 90%;
+        width: 80%;
         margin: 20px;
         text-align: center;
     }
@@ -44,6 +48,11 @@
 
 /* Services */
 @media (max-width: 768px){
+.services__container {
+    background: url('../images/bg-simplify-section-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: 
+}
 .services__header {
     background-color: var(--neutral-color-pl-red);
     border-radius: 100px;
@@ -59,3 +68,10 @@
  }
 }
 
+/* Simplify Section */
+@media (max-width: 768px;){
+    .simplify__container {
+        background-image: url('../images/bg-simplify-section-mobile.svg');
+
+    }
+}
