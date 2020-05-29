@@ -51,21 +51,19 @@
 .services__container {
     background: url('../images/bg-simplify-section-mobile.svg');
     background-repeat: no-repeat;
-    background-position: 
-}
-.services__header {
-    background-color: var(--neutral-color-pl-red);
-    border-radius: 100px;
- }
- .services {
-     margin-top: 30px;
+    background-position: -35vw 25vh;
  }
  .services__intro {
-     margin-bottom: 40px;
-     justify-content: center;
-     align-self: center;
-
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     margin-bottom: 80px;
  }
+ .services__header {
+     background-color: var(--neutral-color-pl-red);
+ }
+
 }
 
 /* Simplify Section */
