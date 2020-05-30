@@ -57,7 +57,7 @@
      width: 100%;
  }
  .services__content {
-      width: 80%;
+      width: 100%;
  }
  .services__intro {
      display: flex;
@@ -106,4 +106,13 @@
         text-align: center;
         margin-top: 3rem;
     }
+}
+
+/* Footer Style */
+@media (max-width: 768px) {
+    .footer__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .
 }
