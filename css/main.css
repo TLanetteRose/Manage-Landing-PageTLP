@@ -127,7 +127,7 @@ button:hover {
 }
 .intro__text {
     width: 70%;
-    font-size: 1.75rem;
+    font-size: 2rem;
     
 }
 
@@ -158,13 +158,14 @@ button:hover {
     width: 80%;
 }
 .services__main-heading {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     width: 65%;
 }
 
 .services__main-text {
     width: 75%;
+    font-size: 2rem;
 }
 
 .services__header {
@@ -175,20 +176,24 @@ button:hover {
 .services__badge {
     background-color: var(--primary-color-br-red);
     color: white;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
     padding: 0.4rem 2rem 0.6rem 2rem;
     border-radius: 100px;
+    width: 75px;
 }
 
 .services__heading {
     margin-left: 2rem;
     font-weight: 700;
+    font-size: 2rem;
 }
 
 .services__text {
     transform: translateX(8rem);
     margin-top: 1rem;
     width: 60%;
+    font-size: 2rem;
 }
 
 /* Testimonial Section Style */
@@ -202,7 +207,7 @@ button:hover {
 .testimonial__heading {
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 
