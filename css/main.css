@@ -300,11 +300,11 @@ footer {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 60px 150px;
 }
 
-.footer__section-1 {
+.footer__1-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -319,9 +319,11 @@ footer {
     margin-right: 1rem;
 }
 
-.footer__section-2,
-.footer__section-3 {
+.footer__2-container {
     display: flex;
+    justify-content: space-between;
+    
+
 }
 
 .footer__links {
@@ -345,7 +347,7 @@ footer {
     text-decoration: none;
 }
 
-.footer__section-4 {
+.footer__3-container {
     margin-left: 40px;
 }
 

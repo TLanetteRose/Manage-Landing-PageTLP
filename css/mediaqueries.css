@@ -114,5 +114,8 @@
         flex-direction: column-reverse;
         align-items: center;
     }
-    .
+    .footer__section-2,
+    .footer__section-3 {
+        flex-direction: row;
+    }
 }
