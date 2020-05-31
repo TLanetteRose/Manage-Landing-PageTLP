@@ -304,6 +304,8 @@ footer {
     padding: 60px 150px;
 }
 
+
+
 .footer__1-container {
     display: flex;
     flex-direction: column;
@@ -349,7 +351,9 @@ footer {
 }
 
 .footer__3-container {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .footer__form {
@@ -378,12 +382,9 @@ footer {
 }
 
 .footer__copyright {
-    opacity: 0.5;
-    color: white;
-    font-size: 1.4rem;
-    letter-spacing: 0.5px;
-    text-align: center;
-    margin-top: 4rem;
+   font-size: 12px;
+  
+
 }
 
 .error {
