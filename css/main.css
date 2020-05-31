@@ -288,6 +288,8 @@ button:hover {
 /* Footer */
 
 footer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: hsl(233, 12%, 13%);
     color: white;
@@ -337,6 +339,7 @@ footer {
 }
 .footer__links:first-child {
     margin-right: 8rem;
+    margin-left: 2rem;
 }
 
 .footer__link {
@@ -353,12 +356,13 @@ footer {
 .footer__3-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    
 }
 
 .footer__form {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 4rem;
+    align-items: flex-start;
     
 }
 
@@ -367,7 +371,7 @@ footer {
     width: 200px;
     border-radius: 50px;
     border: none;
-    padding: 10px;
+    padding: 1rem 2rem;
     font-family: "Be Vietnam", sans-serif;
     font-size: 1.4rem;
 }
@@ -382,9 +386,14 @@ footer {
 }
 
 .footer__copyright {
-   font-size: 12px;
-  
-
+    font-size: 1.4rem;
+    opacity: 0.5;
+    color: white;
+    letter-spacing: 0.5px;
+    align-self: flex-end;
+    width: 300px;
+    margin-right: 6rem;
+   
 }
 
 .error {
