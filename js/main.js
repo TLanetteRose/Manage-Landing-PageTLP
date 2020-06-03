@@ -3,13 +3,13 @@
 const testCarousel = new Glide('.testimonial', {
     type: 'carousel',
     startAt: 0,
-    gap: 20,
-    perView: 3,
+    gap: 40,
+    perView: 2,
     breakpoints: {
         1024: {
             perView: 3
         },
-        800: {
+        768: {
             perView: 2
         },
         600: {

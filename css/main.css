@@ -17,7 +17,7 @@
 
 
 * {
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,36 +47,37 @@ body {
     transition: all 0.3s;
 }
 
-.primary-btn,
-.primary-btn a {
+button:focus,
+input:focus {
+    outline: none;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.primary-btn {
     background-color: var(--primary-color-buttons);
     color: white;
     box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
     -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
 }
- 
-.simplify-btn,
-.simplify-btn a {
-    background-color: var(--neutral-color-lt-gray);
-    color: var(--primary-color-br-red);
-   
-}
 
-button:hover {
-    text-decoration: none;
-}
-
-.primary-btn:hover,
-.primary-btn a:hover {
+.primary-btn:hover {
     background-color: var(--hover-btn-background);
     color: var(--primary-color-br-red);
 }
+ 
+.simplify-btn {
+    background-color: var(--neutral-color-lt-gray);
+    color: var(--primary-color-br-red);
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);  
+}
 
-.simplify-btn:hover,
-.simplify-btn a:hover {
+.simplify-btn:hover {
     background-color: var(--hover-simplify-btn-background);
     color: white;
-
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
 }
 
 .paragraph {
@@ -275,7 +276,7 @@ button:hover {
 }
 
 .simplify__heading {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
     font-weight: 500;
     
