@@ -17,7 +17,7 @@
 
 
 * {
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -47,36 +47,37 @@ body {
     transition: all 0.3s;
 }
 
-.primary-btn,
-.primary-btn a {
+button:focus,
+input:focus {
+    outline: none;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.primary-btn {
     background-color: var(--primary-color-buttons);
     color: white;
     box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
     -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
 }
- 
-.simplify-btn,
-.simplify-btn a {
-    background-color: var(--neutral-color-lt-gray);
-    color: var(--primary-color-br-red);
-   
-}
 
-button:hover {
-    text-decoration: none;
-}
-
-.primary-btn:hover,
-.primary-btn a:hover {
+.primary-btn:hover {
     background-color: var(--hover-btn-background);
     color: var(--primary-color-br-red);
 }
+ 
+.simplify-btn {
+    background-color: var(--neutral-color-lt-gray);
+    color: var(--primary-color-br-red);
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);  
+}
 
-.simplify-btn:hover,
-.simplify-btn a:hover {
+.simplify-btn:hover {
     background-color: var(--hover-simplify-btn-background);
     color: white;
-
+    box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
 }
 
 .paragraph {
@@ -99,7 +100,7 @@ button:hover {
 
 .navbar .nav-link {
     color: var(--primary-color-dk-blue);
-    font-size: 1.45rem;
+    font-size: 2rem;
     margin-right: 1rem;
     font-weight: 500;
 }
@@ -123,7 +124,7 @@ button:hover {
 .intro__heading {
     width: 85%;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 .intro__text {
     width: 70%;
@@ -275,7 +276,7 @@ button:hover {
 }
 
 .simplify__heading {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: white;
     font-weight: 500;
     
@@ -288,6 +289,8 @@ button:hover {
 /* Footer */
 
 footer {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: hsl(233, 12%, 13%);
     color: white;
@@ -300,14 +303,17 @@ footer {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 60px 150px;
 }
 
-.footer__section-1 {
+
+
+.footer__1-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__social-logo {
@@ -319,19 +325,23 @@ footer {
     margin-right: 1rem;
 }
 
-.footer__section-2,
-.footer__section-3 {
+.footer__2-container {
     display: flex;
+    justify-content: space-evenly;
+    
 }
+
 
 .footer__links {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     color: white;
+    
 }
-
 .footer__links:first-child {
-    margin-right: 4rem;
+    margin-right: 8rem;
+    margin-left: 2rem;
 }
 
 .footer__link {
@@ -345,12 +355,16 @@ footer {
     text-decoration: none;
 }
 
-.footer__section-4 {
-    margin-left: 40px;
+.footer__3-container {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .footer__form {
     display: flex;
+    margin-left: 4rem;
+    align-items: flex-start;
     
 }
 
@@ -359,7 +373,7 @@ footer {
     width: 200px;
     border-radius: 50px;
     border: none;
-    padding: 10px;
+    padding: 1rem 2rem;
     font-family: "Be Vietnam", sans-serif;
     font-size: 1.4rem;
 }
@@ -374,12 +388,14 @@ footer {
 }
 
 .footer__copyright {
+    font-size: 1.4rem;
     opacity: 0.5;
     color: white;
-    font-size: 1.4rem;
     letter-spacing: 0.5px;
-    text-align: center;
-    margin-top: 4rem;
+    align-self: flex-end;
+    width: 300px;
+    margin-right: 6rem;
+   
 }
 
 .error {

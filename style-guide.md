@@ -128,3 +128,8 @@ Pricing
             <li data-target="#carouselIndicators" data-slide-to="2" class="testimonial__bullet"></li>
             <li data-target="#carouselIndicators" data-slide-to="3" class="testimonial__bullet"></li>
           </ol><!--.carousel-indicators-->
+
+<div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left text-dark" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right text-dark" data-glide-dir=">">next</button>
+          </div><!--.glide__arrows-->
