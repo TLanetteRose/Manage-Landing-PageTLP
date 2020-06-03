@@ -12,7 +12,7 @@ The page design uses background images on different sections including the secti
 
 ## Completed Design
 
-You can see the my final design here: [Huddle Landing Page with Curved Background Images](https://tlanetterose.github.io/Manage-Landing-PageTLP/)
+You can see the my final design here: [Manage Landing Page](https://tlanetterose.github.io/Manage-Landing-PageTLP/)
 
 Designer: [T.Lanette Pollard](https://github.com/TLanetteRose)
 
