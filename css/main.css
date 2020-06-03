@@ -100,7 +100,7 @@ input:focus {
 
 .navbar .nav-link {
     color: var(--primary-color-dk-blue);
-    font-size: 1.45rem;
+    font-size: 2rem;
     margin-right: 1rem;
     font-weight: 500;
 }
@@ -124,7 +124,7 @@ input:focus {
 .intro__heading {
     width: 85%;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 .intro__text {
     width: 70%;
