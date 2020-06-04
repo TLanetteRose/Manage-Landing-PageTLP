@@ -46,32 +46,3 @@ function isEmail(email) {
     return (/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+ [a-zA-Z]{2,}))$/.test(email));
 }
 
-/*const hamburger = document.getElementById('hamburger')
-const close = document.getElementById('close')
-const nav = document.getElementById('navbar__mobile')
-const container = document.querySelector('.container')
-
-hamburger.addEventListener('click', () => {
-    hamburger.style.display = 'none';
-    close.style.display = 'block';
-    nav.classList.add('navbar__mobile')
-    container.classList.add('nav-container')
-})
-
-close.addEventListener('click', () => {
-    close.style.display = 'none';
-    hamburger.style.display = 'block';
-    nav.classList.remove('navbar__mobile')
-    container.classList.remove('nav-container')
-})
-
-window.addEventListener('resize', () => {
-    close.style.display = 'none';
-    nav.classList.remove('navbar__mobile')
-    container.classList.remove('nav-container')
-    if(window.innerWidth > 720) {
-        hamburger.style.display = 'none'
-    } else {
-        hamburger.style.display = 'block'
-    }
-})*/
