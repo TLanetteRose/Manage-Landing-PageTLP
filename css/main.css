@@ -236,6 +236,7 @@ input:focus {
 
 .glide__slide {
     width: 250px;
+    list-style-type: none;
 }
 
 .testimonial__img {
