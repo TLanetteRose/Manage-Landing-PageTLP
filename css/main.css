@@ -310,8 +310,8 @@ footer {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-evenly;
-    padding: 60px 150px;
+    justify-content: space-between;
+    /*padding: 60px 150px;*/
 }
 
 
@@ -364,25 +364,25 @@ footer {
 
 .footer__3-container {
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;   
 }
 
 .footer__form {
     display: flex;
-    margin-left: 4rem;
-    align-items: flex-start;
+    justify-content: space-between;
+    width: 370px;
     
 }
 
 .footer__input {
     height: 40px;
-    width: 200px;
+    width: 261px;
     border-radius: 50px;
     border: none;
     padding: 1rem 2rem;
     font-family: "Be Vietnam", sans-serif;
     font-size: 1.4rem;
+    margin-right: 1rem;
 }
 
 .form-btn {
